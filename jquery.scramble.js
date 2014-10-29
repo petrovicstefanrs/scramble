@@ -10,9 +10,6 @@
 	        var h = $(this).height();
 	        var p = parseInt($(this).css('padding'));
 	        var f = parseInt($(this).css('font-size'));
-	        $('.debugging').append('w: ' + w + '<br/>');
-	        $('.debugging').append('h: ' + h + '<br/>');
-	        $('.debugging').append('p: ' + p + '<br/>');
 	        
 	        // Set explicit width and height on our element.
 	        $(this).width(w);
@@ -22,7 +19,6 @@
 	        var letters = $(this).text().trim(); // remove any whitespace
 	        letters = letters.replace(/\s/g, ''); // remove spaces between any words
 	        letters = letters.split(''); // create an array of the letters
-	        $('.debugging').append('a: ' + letters + '<br/>');
 	        
 	        // Empty our div.
 	        $(this).empty();
