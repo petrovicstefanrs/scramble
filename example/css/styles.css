@@ -1,0 +1,9 @@
+.scramble {
+	border:1px solid black;
+	width:200px;
+	height:200px;
+	padding:20px;
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+}
